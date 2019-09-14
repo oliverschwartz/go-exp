@@ -12,6 +12,7 @@ type Node struct {
 	Val int 
 }
 
+// Sum the values in the binary tree recursively
 func add(n *Node) int {
 	if n == nil {
 		return 0
